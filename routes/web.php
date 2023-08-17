@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\landing_page;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -41,3 +42,4 @@ Route::get('/Donate', function () {
 Route::get('/Pricing', function () {
     return view('pricing');
 });
+Route::post('sendEmail',[landing_page::class,"sendEmail"]);

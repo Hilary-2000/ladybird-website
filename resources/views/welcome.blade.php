@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Welcome to Ladybird Softech Company</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Ladybird School Management System</title>
+  <meta content="The best school management system in Thika, We provide a wide variety of services for our clients including: bulk sms, payment automation, timetable generation, report generation, eleiminate paper work" name="description">
+  <meta content="bulk sms, payment automation, timetable generation, report generation, eliminate paper work" name="keywords">
 
   <!-- Favicons -->
-  <link href="/l_assets/assets/img/ladybird2.png" rel="icon">
-  <link href="/l_assets/assets/img/ladybird2" rel="apple-touch-icon">
+  <link href="/l_assets/assets/img/ladybird_dark.png" rel="icon">
+  <link href="/l_assets/assets/img/ladybird_dark.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -33,6 +33,25 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-243578000-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-243578000-1');
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5H4YCK02K"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K5H4YCK02K');
+    </script>
 </head>
 
 <body>
@@ -42,13 +61,13 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:mail@ladybirdsmis.com">mail@ladybirdsmis.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+254 713 620 727</span></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+254 743 551 250</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.tiktok.com/@ladybirdsmis?lang=en" class="twitter"><i class="bi bi-tiktok"></i></a>
         <a href="https://www.facebook.com/ladybirdsmis" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://www.instagram.com/ladybirdsmis/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/ladybird-softech-co" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
     </div>
   </section>
@@ -58,7 +77,7 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1 class="d-flex align-items-center" ><a href="."><img src="/l_assets/assets/img/ladybird.png" alt="Logo" class="img-fluid"> Ladybird </a></h1>
+        <h1 class="d-flex align-items-center" ><a href="."><img src="/l_assets/assets/img/ladybird_white-removebg-preview.png" width="40" height="150" alt="Logo" class="img-fluid"> Ladybird </a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
       </div>
 
@@ -69,10 +88,14 @@
           <li><a href="/Features">Features & Modules</a></li>
           <li><a href="/Screenshots">ScreenShots</a></li>
           <li><a href="/Team">Team</a></li>
-          {{-- <li><a href="/Pricing">Pricing</a></li> --}}
-          {{-- <li><a href="/Donate">Donate</a></li> --}}
+          <li class="dropdown"><a href="#"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://lsims.ladybirdsmis.com/">Ladybird-SMIS</a></li>
+              <li><a href="https://lpts.ladybirdsmis.com/">Learning-SMIS</a></li>
+              <li><a href="https://libsms.ladybirdsmis.com/">Library-SMIS</a></li>
+            </ul>
+          </li>
           <li><a href="/Contact">Contact</a></li>
-          <li><a href="https://ladybirdsmis.com/sims/login.php">Login L-SIMS</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -90,22 +113,24 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item" style="background: url(/l_assets/assets/img/slide/slide-1.jpg)">
+          <div class="carousel-item active" style="background: url(/l_assets/assets/img/slide/slide-1.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Ladybird</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ladybird Softech Co, is a software Development company that is working hard with a mission to give an array of solutions to our clients to get digital and help them accomplish their mission and vision by developing software to meet their needs.</p>
+                <h2 class="animate__animated animate__fadeInDown"><span>Who</span> are we<span>?</span></h2>
+                <p class="animate__animated animate__fadeInUp">Ladybird Softech Co, is a software Development company that is working hard with a mission to give solutions to hundreds of schools with a simple and easy to use school management system.</p>
                 <a href="#main" class="btn-get-started animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item active" style="background: url(/l_assets/assets/img/slide/slide-2.jpg)">
+          <div class="carousel-item" style="background: url(/l_assets/assets/img/slide/slide-2.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated fanimate__adeInDown">Ladybird <span>School Management System</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ladybird School Management System an affordable easy to use advanced School Management System for Primary and Secondary schools with need of keeping & retrieving all their school records, generating reports and communicating with the parents and staff through sms.</p>
+                <h2 class="animate__animated fanimate__adeInDown"><span>Why</span> choose us<span>?</span></h2>
+                <div class="animate__animated animate__fadeInUp">
+                  <p>Our school management system software offers a comprehensive and customizable solution tailored to the unique needs of Kenyan schools. With a user-friendly interface and cloud-based accessibility, our platform ensures easy adoption and real-time collaboration among stakeholders. We prioritize data security, adhering to privacy standards and regulations.  Our cost-effective approach brings significant savings compared to traditional systems, and our commitment to continuous updates and enhancements ensures long-term value.</p>
+                </div>
                 <a href="https://ladybirdsmis.com/" class="btn-get-started animate__animated animate__fadeInUp">Login</a>
               </div>
             </div>
@@ -115,8 +140,8 @@
           <div class="carousel-item" style="background: url(/l_assets/assets/img/slide/slide-3.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Ladybird <span>Team</span></h2>
-                <p class="animate__animated animate__fadeInUp">We have a proffessional team that make us accomplish the missions and vision we have as a company by providing services to our clients.</p>
+                <h2 class="animate__animated animate__fadeInDown"><span>What</span> makes us <span>different?</span></h2>
+                <p class="animate__animated animate__fadeInUp">We redefine school management software for Kenyan institutions through a tailored approach. Our localized platform seamlessly integrates with Kenyan and international curricula, simplifying administrative tasks. What truly distinguishes us is our commitment to data security and privacy, aligning with the strictest regulations. Beyond technology, we offer competitive prices that are pocket friendly, no need of paying riduculous prices for the same services.</p>
                 <a href="" class="btn-get-started animate__animated animate__fadeInUp">View</a>
               </div>
             </div>
@@ -154,7 +179,7 @@
             <div class="icon-box">
               <i class="bi bi-bar-chart"></i>
               <h3><a href="">Our Mission</a></h3>
-              <p>Our Mission is to provide solutions using the latest technology with safe, respectful and inclusive softwares that builds a foundation for life-long trust in technology.</p>
+              <p>Our Mission is to provide give solutions to 100s of schools to get digital and help them accomplish their mission and vision through an easy to use and very advance all-in-one School Management software.</p>
             </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-0">
@@ -168,6 +193,32 @@
 
       </div>
     </section><!-- End Featured Section -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>Advantages of using Ladybird.</h3>
+            <p class="fst-italic">
+              A good school management system comes and fits in your schedule and simplifies your administrative tasks.
+            </p>
+            <p><strong>Some of these advantages are: </strong></p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <b><strong>Payment Automation</strong></b>: automate your ways of collecting fees by taking advantage of M-Pesa intergration and bank reconciliation.</li>
+              <li><i class="bi bi-check-circle"></i> <b>Communication</b>: Take advantage of unlimited bulk sms & bulk emails to share news and notification to parents. Do not depend on students as messengers between the school and the parents.</li>
+              <li><i class="bi bi-check-circle"></i> <b>Generate Timetable</b>: Generate timetables with just a few clicks, saving you time to focus on what truly matters. You will be able to generate teacher, class and block timetables</li>
+              <li><i class="bi bi-check-circle"></i> <b>Reporting</b>: With the wealth of information you have in your database, generate reports so that you have insights of whats happening in your institution and make data driven decisions.</li>
+              <li><i class="bi bi-check-circle"></i> <b>Easier Data Management</b>: Facilitates data management by organizing and securely storing student information, academic records, attendance data, and other relevant details.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <img src="/l_assets/assets/img/man_on_computer.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -178,15 +229,17 @@
             <img src="/l_assets/assets/img/creative.svg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <h3>Ladybird School Management System is a major product we own as Ladybird Softech Company.</h3>
+            <h3>Assumptions and Myths of School Management System.</h3>
             <p class="fst-italic">
-              Ladybird SMIS is a school management system that is easy to use affordable and it has been developed to provide solutions to hundreds of schools in kenya that anticipate to go digital.
+              Many assumptions have been made and believed to be true when someone thinks of a software or a system. This 
+              has made it hard for many potential users who have been fed with these assumptions unable to adopt the use of 
+              school systems.
             </p>
-            <p><strong>Some Of Our Core Values: </strong></p>
+            <p><strong>Some of these myths: </strong></p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <b><strong>Integrity</strong></b>: We believe that strong ethics is a priority for everyone representing the organization and the quality of honesty and having strong moral principles..</li>
-              <li><i class="bi bi-check-circle"></i> <b>Accountability</b>: Accepting responsibility for your actions (and inactions) is the ultimate way to build trust internally and externally. And I believe we as a company will hold accountable to what we do and offer.</li>
-              <li><i class="bi bi-check-circle"></i> <b>Passionate</b>: Having a joy not just for the work itself but also the people (clients, employees) around us, so that everyone can be bold, innovative, and creative.</li>
+              <li><i class="bi bi-check-circle"></i> <b><strong>Costly to run</strong></b>: administrators might assume that adopting a management system is expensive due to software licenses, hardware requirements, and training costs. This financial concern cannot be applied to a cloud based system like us because we offer competitively affordable prices tailor made for your institution.</li>
+              <li><i class="bi bi-check-circle"></i> <b>Complexity and Learning Curve</b>: Administrators might worry that implementing a new system will be too complex for their staff to learn quickly. This assumption can lead to hesitation, but with our systems intuitive and user friendly interface challenges this myth.</li>
+              <li><i class="bi bi-check-circle"></i> <b>Resistance to Change</b>: Administrators might assume that introducing new technology will disrupt established workflows, leading to resistance from staff. This fear of change can hinder adoption, even if the system offers significant benefits. A good school management system comes and fits in your schedule and simplifies your administrative tasks. Like payment automation and timetable generation are among the many tasks it can do.</li>
             </ul>
             <p>
               Values are like fingerprints, Nobody`s are the same.
@@ -196,99 +249,78 @@
 
       </div>
     </section><!-- End About Section -->
-
-    <!-- ======= Services Section ======= -->
-    <h4 class="text-center" id="ladybird_features">Ladybird School Management System - Features</h4>
-    <section id="services" class="services">
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="#ladybird_features">Admission & Administration</a></h4>
-              <p>You can register your students and assign them an admission number or generate one automatically with the system and also manage thier information and the staff information as well.</p>
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+              <p>A2 Thika Town</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="#ladybird_features">Financial Management</a></h4>
-              <p>Record all financial information this includes: Fees paid, Record School Expenses, Calculate the Staff net salary and other deductions in the Payroll Module and view all transactions done via mpesa to the institution and many more.</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p>mail@ladybirdsmis.com</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="#ladybird_features">Reciepts Printing and report generation.</a></h4>
-              <p>The system is capable of generating fee reciepts for all the transacions captured by the system. Generate reports such as student perfomance charts and income reports statements.</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p>+254 743 551 250</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="#ladybird_features">SMS fees confirmation, Students results</a></h4>
-              <p>You can send SMS to your parents showing them transaction confirmation and student new fee balance or students results.</p>
-            </div>
-          </div>
+        </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="#ladybird_features">Academic Module.</a></h4>
-              <p>Record,view and manage the students and the staff academic information. Record exam marks and ranks students based on their perfomance.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Timetable Creation And Management Module</a></h4>
-              <p>Set up in five minutes to always create a school timetable in seconds taking advantage of AI (Artificial Inteligence).</p>
-            </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h4 class="text-center">Book a demo with us!</h4>
+            <form action="/sendEmail" method="post" role="form" class="php-email-form">
+              @csrf
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 ">
+                  <input type="text" class="form-control" name="phone_number" id="phone_number" placeholder="Your Phone number" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 ">
+                  <input type="text" class="form-control" name="message_subject" id="message_subject" placeholder="Subject" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button class="btn btn-primary w-100" type="submit">Send Message</button></div>
+            </form>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Clients Section ======= -->
-    <!-- <section id="clients" class="clients">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Clients</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="clients-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="/l_assets/assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="/l_assets/assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="/l_assets/assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="/l_assets/assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="/l_assets/assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="/l_assets/assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="/l_assets/assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="/l_assets/assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Clients Section -->
-
+    </section><!-- End Contact Section -->
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-    <div class="footer-newsletter">
+    {{-- <div class="footer-newsletter">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -302,7 +334,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     <div class="footer-top">
       <div class="container">
@@ -311,11 +343,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/About">Why L-SIMS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Features">Features & Modules</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Screenshots">Screenshots</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Contact">Contact Us</a></li>
             </ul>
           </div>
 
@@ -334,20 +366,19 @@
             <h4>Contact Us</h4>
             <p>
               A2 Thika Town,<br>
-              <strong>Phone:</strong> +254 713 620 727<br>
+              <strong>Phone:</strong> +254 743 551 250<br>
               <strong>Email:</strong> mail@ladybirdsmis.com<br>
             </p>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Ladybird Softech Co. Socials</h3>
+            <h3>Socials</h3>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.tiktok.com/@ladybirdsmis?lang=en" class="tiktok"><i class="bx bxl-tiktok"></i></a>
               <a href="https://www.facebook.com/ladybirdsmis" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://www.instagram.com/ladybirdsmis/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ladybird-softech-co" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
 
